@@ -7,7 +7,7 @@ date = "2024-09-09"
 tags=[]
 +++
 
-Nothing much to see here. You should check out my [about page](/about)!
+Nothing much to see here. You should check out my [projects](/projects)!
 
 <br/>
 {{ note(header="Thanks for reading!", body="Have a cat as a gift.") }}
