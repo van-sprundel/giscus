@@ -1,0 +1,29 @@
+name: Deploy to Cloudflare
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install Zola
+        uses: taiki-e/install-action@v2
+        with:
+          tool: zola@0.19.1
+
+      - name: Build Zola site
+        run: zola build
+
+      - name: Deploy to Cloudflare
+        uses: cloudflare/github-actions@0.1.2
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountEmail: ${{ secrets.CLOUDFLARE_EMAIL }}
+          zone: ${{ secrets.CLOUDFLARE_ZONE }}
+          directory: public
