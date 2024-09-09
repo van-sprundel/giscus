@@ -1,5 +1,5 @@
 +++
-title = "My first post."
+title = "My first post"
 description = "Welcome to the beginning of the world!"
 date = "2024-09-09"
 
