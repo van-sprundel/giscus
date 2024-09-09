@@ -1,4 +1,4 @@
-name: Deploy to Cloudflare
+name: Deploy to Cloudflare Pages
 
 on:
   push:
@@ -8,9 +8,13 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
     
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
       - name: Install Zola
         uses: taiki-e/install-action@v2
@@ -20,10 +24,13 @@ jobs:
       - name: Build Zola site
         run: zola build
 
-      - name: Deploy to Cloudflare
-        uses: cloudflare/github-actions@0.1.2
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountEmail: ${{ secrets.CLOUDFLARE_EMAIL }}
-          zone: ${{ secrets.CLOUDFLARE_ZONE }}
-          directory: public
+          accountId: ${{ secrets.ACCOUNT_ID }}
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          projectName: "personal-blog"
+          directory: public 
+          branch: master  
+
