@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+    {{ post_macros::content(page=page)}}
+
+    {% if config.extra.comment | default(value=false) %}
+        <div class="giscus"></div>
+        {% include "_giscus_script.html" %}
+    {% endif %}
+{% endblock main_content %}

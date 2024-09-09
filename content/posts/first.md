@@ -1,6 +1,6 @@
 +++
 title = "My first post"
-description = "Welcome to the beginning of the world!"
+description = "Welcome to the beginning!"
 date = "2024-09-09"
 
 [taxonomies]

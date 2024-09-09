@@ -23,5 +23,7 @@ socials = [
 menu = [
     { name = "/posts", url = "/posts", weight = 1 },
     { name = "/projects", url = "/projects", weight = 2 },
-    { name = "/RSS", url = "/rss.xml", weight = 3 },
+    { name = "/hire-me", url = "/hire-me", weight = 3 },
+    { name = "/rss", url = "/rss.xml", weight = 4 },
 ]
+comment = true
