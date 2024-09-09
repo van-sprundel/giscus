@@ -6,6 +6,10 @@ build_search_index = false
 theme = "apollo"
 taxonomies = [{ name = "tags" }]
 
+# Feeds
+generate_feeds = true
+feed_filenames = ["atom.xml", "rss.xml"]
+
 [markdown]
 highlight_code = true
 external_links_target_blank = true
@@ -13,11 +17,11 @@ external_links_target_blank = true
 [extra]
 theme = "light"
 socials = [
-  { name = "github", url = "https://github.com/van-sprundel/", icon = "github" },
-  { name = "linkedin", url = "https://www.linkedin.com/in/ramon-van-sprundel-6456701b1/", icon = "linkedin" },
+    { name = "github", url = "https://github.com/van-sprundel/", icon = "github" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/ramon-van-sprundel-6456701b1/", icon = "linkedin" },
 ]
 menu = [
     { name = "/posts", url = "/posts", weight = 1 },
     { name = "/projects", url = "/projects", weight = 2 },
-    { name = "/about", url = "/about", weight = 3 },
+    { name = "/RSS", url = "/rss.xml", weight = 3 },
 ]
