@@ -5,9 +5,6 @@ date = "2024-09-09"
 
 [taxonomies]
 tags=[]
-
-[extra]
-comments = true
 +++
 
 Nothing much to see here. You should check out my [about page](/about)!
