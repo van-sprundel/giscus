@@ -27,7 +27,7 @@ You can now serve your resume as a single HTML file and some CSS, or you could b
 {{ note(header="Note:", body="I'm not an embedded engineer, you guys just make lights blink all day right? (jk)") }}
 
 ### But wait... what about PDFs?
-Ah yeah, links to resumes are more often than not disregarded by recruiters. Luckily [puppeteer]() exists. Exporting your resume to a PDF only takes a few lines of JS:
+Ah yeah, links to resumes are more often than not disregarded by recruiters. Luckily [puppeteer](https://pptr.dev/) exists. Exporting your resume to a PDF only takes a few lines of JS:
 
 ```js
 import puppeteer from 'puppeteer'
