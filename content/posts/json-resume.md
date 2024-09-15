@@ -7,14 +7,14 @@ date = "2024-09-16"
 tags = ["json", "jsonresume", "resume"]
 +++
 
-I'm sure you've all been there—spending 20 minutes digging through folders for that outdated Word document containing your already-deprecated resume. After an inevitable battle with Word’s layout system, which somehow manages to derail whatever initial concept you had in mind, you begin to wonder if there's another tool designed for this. 
+I'm sure you've all been there — spending 20 minutes digging through folders for that outdated Word document containing your already-deprecated resume. After an inevitable battle with Word’s layout system, which somehow manages to derail whatever initial concept you had in mind, you begin to wonder if there's another tool designed for this. 
 
 I don't blame Word though, it's just the only application I know that's decent at making documents. I've tried a few online editors, but they have the same problem as any other "free" product. Either it's paywalled, watermarked or extremely limited. And don't get me started on making an account for some client-side application...
 
 ## Ever thought of re-inventing the wheel?
 Hear me out. What if we approached it as a software dev? Let's split the resume into two parts. We have a stored object (JSON, TOML, YAML...) that contains all the information we'd want to display, and we can pass it through some other tool to generate a nice-looking resume.
 
-Well, as with any cool idea, someone was ahead of you. The [JSON resume](https://jsonresume.org/)project focuses on an open-source initiative to create a JSON-based standard for resumes. Lucky for us, because we can just insert our own data into the [predefined schema](https://jsonresume.org/schema). There's even a [LinkedIn importer](https://github.com/joshuatz/linkedin-to-jsonresume)!
+Well, as with any cool idea, someone was ahead of you. The [JSON resume](https://jsonresume.org/) project focuses on an open-source initiative to create a JSON-based standard for resumes. Lucky for us, because we can just insert our own data into the [predefined schema](https://jsonresume.org/schema). There's even a [LinkedIn importer](https://github.com/joshuatz/linkedin-to-jsonresume)!
 
 Setting up my own resume only took around an hour. You can store your resume on [Gist](https://gist.github.com), and tweak your resume whenever you please.
 
