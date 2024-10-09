@@ -1,5 +1,5 @@
 +++
-title= "Ramon van Sprundel"
+title= "Ramon van Sprundel's personal blog"
 template = "homepage.html"
 +++
 
