@@ -8,4 +8,4 @@ As a junior software engineer currently between jobs, I’m using this time to c
 
 Found a typo or error in my blog? Great! You can create an issue on [GitHub](https://github.com/van-sprundel/personal-blog). Thanks in advance!
 
-Also, feel free to contact me at [ramonvansprundel@gmail.com](mailto:ramonvansprundel@gmail.com).
+Also, feel free to contact me at ramonvansprundel (at) gmail (dot) com
