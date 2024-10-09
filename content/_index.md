@@ -3,7 +3,7 @@ title= "Ramon van Sprundel's personal blog"
 template = "homepage.html"
 +++
 
-# Ramon van Sprundel
+# Welcome!
 
 Welcome to my personal blog! I'm Ramon, a recent CS graduate from The Netherlands.
 
