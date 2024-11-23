@@ -5,10 +5,8 @@ template = "homepage.html"
 
 # Welcome!
 
-Welcome to my personal blog! I'm Ramon, a recent CS graduate from The Netherlands.
+Welcome to my blog. I’m Ramon, a systems programmer based in The Netherlands. I graduated in July 2024 from Avans University of Applied Sciences with a degree in Computer Science.
 
-As a junior software engineer currently between jobs, I’m using this time to contribute to open-source projects 🧙. I’ve created this blog to share my personal experiences and discoveries. It also helps me stay productive in-between job hunts.
+As of November 2024, I work at [Teifi Digital](https://teifi.ca) as a Fullstack Developer. In my free time I try to contribute to open-source projects.
 
-Found a typo or error in my blog? Great! You can create an issue on [GitHub](https://github.com/van-sprundel/personal-blog). Thanks in advance!
-
-Also, feel free to contact me at ramonvansprundel (at) gmail (dot) com
+If you notice a typo or error, please report it by creating an issue on GitHub. Thank you.
