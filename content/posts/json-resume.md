@@ -7,7 +7,7 @@ date = "2024-09-16"
 tags = ["json", "jsonresume", "resume"]
 +++
 
-Last night it was time to set up a new resume for the *very exciting* jov market. I always end up spending 20 minutes digging through folders for my outdated Word document. Being greeted by the already-deprecated resume (and an initial attempt at battling Word's flawless layout) I began to wonder if there's a tool for this. 
+Last night it was time to set up a new resume for the *very exciting* job market. I always end up spending 20 minutes digging through folders for my outdated Word document. Being greeted by the already-deprecated resume (and an initial attempt at battling Word's flawless layout) I began to wonder if there's a tool for this. 
 
 I don't blame Word though, it's just the only application I know that's decent at making documents. I've tried a few online editors, but they have the same problem as any other "free" product. Either it's paywalled, watermarked or extremely limited. And don't get me started on making an account for some client-side application. 
 
